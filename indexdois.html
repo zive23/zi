@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>171123</title>
+<link rel="stylesheet" href="css/2style.css">
+  
+</head>
+
+<body>
+    <p id="roxo">
+    </p>
+    <h2 id="text">
+        Aviso importante!
+    </h2>
+        <p>
+    <img id="img" src="img/excl.PNG" alt="exclamação" width="200">
+</p>
+<table>
+    <caption>
+        <strong>
+        Ao aceitar deve estar ciente de que sou:
+    </strong>  
+    </caption>
+    <thead>
+      <tr id="z">
+     <th>carente</th>
+     <th>paranoico</th>
+     <th>meio lerdo</th>
+      </tr>
+
+    </thead>
+    <tbody>
+        <td>
+        <img id="eu" src="img/ziddd.JPG" alt="" >
+        </td>
+         <td>
+        <img id="eudois" src="img/IMG_7404.jpg" alt="">
+        </td>
+         <td>
+            <img id="eut" src="img/IMG_7678.jpg" alt="">
+        </td>
+        <td>  </td>
+
+    </tbody>
+</table>
+<p id="inquest"> <strong>Tem certeza que deseja continuar? </strong></p>
+<div id="flex">
+    <div class="botao">
+    <button id="sim"  class="but"
+    onclick="window.location.href='http://127.0.0.1:5500/indextres.html'">
+        <strong id="cor">Sim </strong>
+    </button>  
+    </div>
+</div>
+    <div class="botao">
+    <button id="na" class="but"> <strong>Não</strong> </button> </div>
+    <script>
+        document.querySelector('#na').addEventListener("mouseover", function() {
+               let h = window.innerHeight - 50;
+               let w = window.innerWidth - 50;
+               this.style.position = "absolute"
+               this.style.top = Math.random() * h + "px"
+               this.style.left = Math.random() * w + "px"
+        })
+    </script>
+</body>
+</html>
